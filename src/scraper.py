@@ -13,12 +13,24 @@ from matplotlib.colors import ListedColormap
 from functools import reduce
 import os
 
-def convert(df1,df2,df3,df4):
-    df1=chargers=pd.read_csv("data/IEA-EV-dataEV charging pointsEVHistorical.csv")
-    df2=sales=pd.read_csv("data/IEA-EV-dataEV salesCarsHistorical.csv") 
-    df3=stock=pd.read_csv("data/IEA-EV-dataEV stock shareCarsHistorical.csv") 
-    df4=deaths=pd.read_csv("data/number-of-deaths-by-risk-factor.csv") 
-    return chargers, sales, stock, deaths
+
+
+def convert_1():
+    chargers=pd.read_csv("data/IEA-EV-dataEV charging pointsEVHistorical.csv")
+    return chargers
+
+def convert_2():
+    sales=pd.read_csv("data/IEA-EV-dataEV salesCarsHistorical.csv")
+    return sales
+
+def convert_3():
+    stock=pd.read_csv("data/IEA-EV-dataEV stock shareCarsHistorical.csv")
+    return stock
+
+def convert_4():
+    deaths=pd.read_csv("data/number-of-deaths-by-risk-factor.csv")
+    return deaths
+   
 
 
 def scrape_iqair():

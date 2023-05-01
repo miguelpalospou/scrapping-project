@@ -4,15 +4,15 @@ import geopandas as gpd
 from matplotlib.colors import ListedColormap
 import os
 
-def corr_matrix (df):
+def corr_matrix (df_merged):
     print("---plotting---")
     os.system("say plotting")
-
     correlation_matrix=df_merged.corr()
     plt.savefig("images/correlationmatrix")
     plt.show()
+    return correlation_matrix
 
-def heat_map (df):
+def heat_map (correlation_matrix):
     print("---plotting---")
     sns.heatmap(correlation_matrix);
     plt.savefig("heat_map")

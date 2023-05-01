@@ -1,4 +1,5 @@
 import pandas as pd
+from functools import reduce
 
 def clean_1(df):
     # pivoting in order to transpose the years, which are now in different columns
@@ -56,7 +57,6 @@ def clean_5(deaths):
 
 def merge(data_frames):
     # merging previous 4 public ddbb + scrapped db. Using outer merge in order to keep as much info as possible
-    data_frames = [pollution_2, sales_3, deaths_3, stock_2, chargers_3]
     df_merged = reduce(lambda  left,right: pd.merge(left,right,on=['region', 'year'], how='outer'), data_frames)
     return df_merged
 
