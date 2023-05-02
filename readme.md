@@ -14,12 +14,20 @@
 
 ####  In order to enrich this dataset, 3 other indicators will be considered and added: 1) charging points around the world, 2) sales cars history, 3) EV stock share and 4) number of deaths by risk factor
 
-The following hypotheses were formulated to guide the analysis:
+# The following hypotheses were formulated to guide the analysis:
 
-- The more charging stations, the higher the sales.
-- The higher stock share, the higher the sales.
-- The higher the sales, the less deaths.
-- The more sales, the less the pollution.
+### The more charging stations, the higher the sales.
+### The higher stock share, the higher the sales.
+### The higher the sales, the less deaths.
+### The more sales, the less the pollution.
+
+# Conclusions:
+
+## Is there any correlation at all?
+
+### we can clearly see there is a clear correlation between population and number of deaths.
+### There is also a strong positive correlation between sales and number of chargers.
+### We can also infer that higher EV sales doesn't imply lower pollution, but we would need more data in order to take conclusions out of this.
 
 
 # How to run it?
