@@ -3,6 +3,7 @@ import src.scraper as extract
 import src.visualization as viz
 import os
 from functools import reduce
+import seaborn as sns
 
 
 df=extract.scrape_iqair()
@@ -23,8 +24,8 @@ tables = [clean.clean_1(df),clean.clean_2(df1),clean.clean_3(df2), clean.clean_4
 
 df = clean.merge(tables)
 
-viz.corr_matrix ()
-viz.heat_map (df)
+valu = viz.corr_matrix(df)
+viz.heat_map (valu)
 viz.pollution_plot(df)
 viz.pollution_plot(df)
 viz.deaths_plot(df)

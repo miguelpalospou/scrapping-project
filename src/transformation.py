@@ -55,8 +55,8 @@ def clean_5(deaths):
     deaths_3=deaths_2.groupby(['region', 'year'])['number of deaths by air pollution'].sum()
     return deaths_3
 
-def merge(data_frames):
+def merge(tables):
     # merging previous 4 public ddbb + scrapped db. Using outer merge in order to keep as much info as possible
-    df_merged = reduce(lambda  left,right: pd.merge(left,right,on=['region', 'year'], how='outer'), data_frames)
+    df_merged = reduce(lambda  left,right: pd.merge(left,right,on=['region', 'year'], how='outer'), tables)
     return df_merged
 
