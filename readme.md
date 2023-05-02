@@ -22,3 +22,6 @@ The following hypotheses were formulated to guide the analysis:
 - The more sales, the less the pollution.
 
 
+# How to run it?
+- execute main.py file through bash.
+- Have fun
