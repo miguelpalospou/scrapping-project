@@ -7,7 +7,7 @@
 
 ## As we all know, there is a growing tendency to purchase electric cars. Not only they are becoming popular but also governments are fostering it by providing aids for people to purchase electric cars.
 
-### This project goal is to democratize data about electric cars evolution and its enviromental and health impac, if any.
+### This project goal is to democratize data about electric cars evolution and its enviromental and health impact, if any.
 
 
 #### The chosen scrapped dataset was "World-most-polluted-countries" from iqair.com. The scrapped table provides historical data about the most polluted country and region ranking based on annual average PM2.5 concentration (μg/m³).
