@@ -13,7 +13,7 @@ def corr_matrix (df):
 def heat_map (df):
     print("---plotting---")
     sns.heatmap(corr_matrix(df));
-    plt.savefig("heat_map")
+    plt.savefig("images/heat_map")
     plt.show()
 
 def pollution_plot (df):
@@ -65,7 +65,7 @@ def sales_chargers (df):
     chargers_plot=df[condition_1]
     sns.scatterplot(x="number of chargers", y="sales", data=chargers_plot)
     plt.title("Sales vs number of chargers", y=1.05)
-    plt.savefig("sales_chargers")
+    plt.savefig("images/sales_chargers")
     plt.show()
 
 
@@ -78,5 +78,5 @@ def sales_pollution (df):
     sns.scatterplot(x="pollution", y="sales", data=pollution_plot)
     plt.title("Sales vs pollution", y=1.05)
     plt.title("Sales vs number of chargers", y=1.05)
-    plt.savefig("sales_pollution")
+    plt.savefig("images/sales_pollution")
     plt.show()
