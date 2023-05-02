@@ -30,6 +30,21 @@
 ### We can also infer that higher EV sales doesn't imply lower pollution, but we would need more data in order to take conclusions out of this.
 
 
+![alternative text](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-II-Scrappiing/images/heat_map.png)
+
+![alternative text](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-II-Scrappiing/images/plot_deaths.png)
+
+![alternative text](![alternative text](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-II-Scrappiing/images/plot_pollution.png)
+
+![alternative text](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-II-Scrappiing/images/sales_pollution.png)
+
+
+
+
+
+
+
+
 # How to run it?
 - execute main.py file through bash.
 - Have fun
