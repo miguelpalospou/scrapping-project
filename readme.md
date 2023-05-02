@@ -29,6 +29,17 @@
 ### There is also a strong positive correlation between sales and number of chargers.
 ### We can also infer that higher EV sales doesn't imply lower pollution, but we would need more data in order to take conclusions out of this.
 
+![heat_map](https://user-images.githubusercontent.com/128624198/235621256-5bf58bff-98b3-46c4-87cb-c4ee90ddf62c.png)
+
+![plot_deaths](https://user-images.githubusercontent.com/128624198/235621278-12ee06e5-565d-4004-9400-e448d01de332.png)
+
+![sales_pollution](https://user-images.githubusercontent.com/128624198/235621197-caf483dc-4f4a-49de-85d6-ed0628615b09.png)
+
+![sales_chargers](https://user-images.githubusercontent.com/128624198/235621299-79a6c22b-053c-4789-ac5e-d17726246d99.png)
+
+
+
+
 
 ![alternative text](/Users/miguelpalospou/Desktop/IRONHACK/Projects/Project-II-Scrappiing/images/heat_map.png)
 
